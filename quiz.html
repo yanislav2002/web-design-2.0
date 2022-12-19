@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>Формула 1</title>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <p><b>Формула 1</b>
+        <j>(фен страница)</j>
+        <button type="button" onclick="document.location='home.html'">Начало</button>
+        <button type="button" onclick="document.location='history.html'">История</button>
+        <button type="button" onclick="document.location='form.html'">Формуляр</button>
+        <button type="button" onclick="alert('Вие се снамиране в началната страница')">Quiz</button>
+    </p>
+
+    <table align="center">
+        <tr>
+            <td><img src="spain-flag.png" alt="spain-flag" style="width:360px;height:200px;"></td>
+            <td><img src="1950.jpg" alt="1950" style="width:360px;height:200px;"></td>
+        </tr>
+        <tr>
+            <td>Кой пилот има най- много състезания?</td> <!---ALONSO--->
+            <td>Коя година стартира първото състезание?</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="1" /></td>
+            <td><input type="text" id="2" /></td>
+        </tr>
+        <tr>
+            <td><img src="monaco.jpg" alt="monaco" style="width:360px;height:200px;"></td>
+            <td><img src="race.jpg" alt="race" style="width:360px;height:200px;"></td>
+        </tr>
+        <tr>
+            <td>Коя е пистата на снимката?</td> <!---ALONSO--->
+            <td>Колко отбора се състезават?</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="3" /></td>
+            <td><input type="text" id="4" /></td>
+        </tr>
+    </table>
+    <script src="is-correct.js"></script>
+
+    </br>
+    <div class="text-center">
+        <button onclick="isCorrect()">Предай</button>
+    </div>
+
+    <table align="center">
+        <tr>
+            <td><b>BONUS: </b><p1> Избройте поне 3 пилота, които са ставали шампиони</p1></td> 
+            <td><input type="text" id="5" /><button onclick="champions()">Предай</button></td>
+
+        </tr>
+    </table>
+
+</body>
+
+</html>

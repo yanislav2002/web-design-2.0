@@ -1,0 +1,61 @@
+p {
+    color: white;
+    font-size: 55px;
+    background-color: rgb(186, 19, 19);
+}
+
+p1 {
+    text-align: center;
+}
+
+j {
+    color: white;
+    font-size: 10px;
+}
+
+text2{
+    color: rgb(186, 19, 19);
+    font-size: 32px;
+}
+
+standings{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+body {
+    background-image: url("cool-background.png");
+    background-repeat: repeat-x;
+    background-position: right top;
+}
+
+table {
+    font-size: 20px;
+}
+
+th {
+    border-radius: 10px;
+    border-collapse: collapse;
+    border: 5px solid rgb(186, 19, 19);
+}
+
+table, td {
+    border: none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    font-size: 25px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.text-center {
+    text-align: center;
+  }

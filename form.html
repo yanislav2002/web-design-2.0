@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <title>Формула 1</title>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <p><b>Формула 1</b>
+        <j>(фен страница)</j>
+        <button type="button" onclick="document.location='home.html'">Начало</button>
+        <button type="button" onclick="document.location='history.html'">История</button>
+        <button type="button" onclick="alert('Вие се снамиране в началната страница')">Формуляр</button>
+        <button type="button" onclick="document.location='quiz.html'">Quiz</button>
+    </p>
+
+    <form id="form-user" align="center">
+        Вашето име: <input type="text" name="Name" size="45" maxlenght="40" id="name" />
+        </br>
+        Вашия имейл: <input type="text" name="EmailAddress" size="45" maxlenght="40" />
+        </br>
+        Вашия уеб-адрес: <input type="text" name="WebAddress" size="45" maxlenght="40" value="http://" />
+        </br>
+
+        </br>
+        <b>Колко често гледате Формула едно?</b>
+        </br>
+        Гледам всяко състезание
+        <input type="radio" name="Choice" value=" Web дизайн" checked="checked" />
+        </br>
+        Когато имам време
+        <input type="radio" name="Choice" value="ООП1" />
+        </br>
+        Рядко 1-2 пъти годишно
+        <input type="radio" name="Choice" value="ДС" />
+        </br>
+        Не гледам
+        <input type="radio" name="Choice" value="КЕ" />
+        </br>
+
+        </br>
+        <b>Кой ви е любимият отбор?</b><br />
+        <select name="ChooseOne">
+            <option value="1">Ферари</option>
+            <option value="2">Ред Бул</option>
+            <option value="3">Мерцедес</option>
+            <option value="4">Мъкларън</option>
+            <option value="5">Алпин</option>
+            <option value="6">Алфа-Таури</option>
+            <option value="7">Алфа Ромео</option>
+            <option value="8">Хаас</option>
+            <option value="9">Уилиамс</option>
+            <option value="10">Астън Мартин</option>
+            <option value="0">Не подкрепям никого</option>
+        </select>
+
+
+        </br>
+        <b>Кой ви е любимият състезател?</b><br />
+        <select name="ChooseOne">
+            <option value="1">Верстапен</option>
+            <option value="2">Перес</option>
+            <option value="3">Люклер</option>
+            <option value="4">Ръсел</option>
+            <option value="5">Хамилтън</option>
+            <option value="6">Сайнц</option>
+            <option value="7">Норис</option>
+            <option value="8">Окон</option>
+            <option value="9">Алонсо</option>
+            <option value="10">Ботас</option>
+            <option value="11">Фетел</option>
+            <option value="12">Рикардо</option>
+            <option value="13">Магнусен</option>
+            <option value="14">Гасли</option>
+            <option value="15">Строл</option>
+            <option value="16">Шумахер</option>
+            <option value="17">Цонуда</option>
+            <option value="18">Джоу</option>
+            <option value="19">Албън</option>
+            <option value="20">Латифи</option>
+            <option value="0">Не подкрепям никого</option>
+        </select>
+
+
+        </br>
+        <b>Напишете коментар за изминаващият сезон:</b></br>
+        <textarea name="Comentar" cols="50" rows="10"></textarea>
+
+
+        </br>
+        <div class="text-center">
+            <button id="buttoCancel">Cancel</button>
+            <button onclick="isCorrect()">Прати</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
